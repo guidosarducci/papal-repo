@@ -1,1 +1,17 @@
+Package: speedtest-netperf
+Version: 1.0.0-1
+Depends: libc, netperf
+Conflicts: speedtest
+Source: package/speedtest-netperf
+License: GPL-2.0
+Section: net
+Maintainer: Tony Ambardar <itugrok@yahoo.com>
+Architecture: all
+Installed-Size: 4878
+Filename: speedtest-netperf_1.0.0-1_all.ipk
+Size: 5672
+SHA256sum: ae3947f38e6c737ca487dac85f5302d682505548926342ba146ee0d95c04a9ef
+Description:  Script to measure the performance of your network and router.
+ 
+ Please see https://github.com/openwrt/packages/blob/master/net/speedtest-netperf/files/README.md for further information.
 
