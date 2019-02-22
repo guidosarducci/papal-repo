@@ -28,8 +28,8 @@ sed -n -i '/papal_repo/!p;$a src/gz papal_repo https://raw.github.com/guidosardu
 
 ## Description of Packages
 
-#### speedtest
-The `speedtest` package provides a convenient means of on-device network performance testing for OpenWrt routers. Such performance testing primarily includes characterizing the network throughput and latency, but CPU usage can also be an important secondary measurement. These aspects of network testing are motivated chiefly by the following:
+#### speedtest-netperf
+The `speedtest-netperf` package provides a convenient means of on-device network performance testing for OpenWrt routers. Such performance testing primarily includes characterizing the network throughput and latency, but CPU usage can also be an important secondary measurement. These aspects of network testing are motivated chiefly by the following:
 
 1. **Throughput:** Network speed measurements can help troubleshoot transfer problems, and be used to determine the truth of an ISP's promised speed claims. Accurate throughput numbers also provide guidance for configuring other software's settings, such as SQM ingress/egress rates, or bandwidth limits for Bittorrent.
 
@@ -37,7 +37,7 @@ The `speedtest` package provides a convenient means of on-device network perform
 
 3. **CPU Usage:**  Observing CPU usage under network load gives insight into whether the router is CPU-bound, or if there is CPU "headroom" to support even higher network throughput. In addition to managing network traffic, a router actively running a `speedtest` will also use CPU cycles to generate network load, and measuring this distinct CPU usage also helps gauge its impact.
 
-**Note:** _The `speedtest.sh` script uses servers and network bandwidth that are provided by generous volunteers (not some wealthy "big company"). Feel free to use the script to test your SQM configuration or troubleshoot network and latency problems. Continuous or high rate use of this script may result in denied access._
+**Note:** _The `speedtest-netperf.sh` script uses servers and network bandwidth that are provided by generous volunteers (not some wealthy "big company"). Feel free to use the script to test your SQM configuration or troubleshoot network and latency problems. Continuous or high rate use of this script may result in denied access._
 
 ---
 #### sqm-scripts & luci-app-sqm
